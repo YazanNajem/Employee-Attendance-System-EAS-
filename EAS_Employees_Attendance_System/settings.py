@@ -22,12 +22,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'gsd47-u1po5krx*9=(b-@23pnu7tyogm2wz4x9nm@3b8p&loz4'
+SECRET_KEY = 'YOUR SECRET KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -89,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'eas_db',
         'USER': 'root',
-        'PASSWORD': 'MyPass0101',
+        'PASSWORD': 'YOUR SQL PASSWORD',
         'PORT': 3306,
         'HOST': 'localhost',
     } 
